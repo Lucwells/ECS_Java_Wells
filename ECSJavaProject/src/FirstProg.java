@@ -1,4 +1,5 @@
-
+//Comment for my FirstProg
+//Just prints out a message to the display
 public class FirstProg 
 {
 	
