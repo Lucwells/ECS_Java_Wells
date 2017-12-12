@@ -1,0 +1,20 @@
+import java.util.Scanner;
+import java.util.Random;
+public class KeepGuessing 
+{
+	public static void main(String [] args)
+	{
+		Scanner k=new Scanner(System.in);
+		Random r=new Random();
+		int num, guess;
+		num=1+r.nextInt(9);
+		
+		do
+		{
+		System.out.println("I am guessing a number from 1-10. Try to guess it.");
+		System.out.print("Your guess is ");
+		guess=k.nextInt();
+		} while (guess!=num);
+	}
+
+}
